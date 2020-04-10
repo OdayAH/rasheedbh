@@ -1,0 +1,131 @@
+body{
+    background-color:black;
+    color:white;
+    font-family: "Quicksand", sans-serif;
+}
+.nav {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    line-height: 65px;
+    text-align: center;
+}
+
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 6rem;
+}
+
+.nav div.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.nav div.logo a:hover {
+    color: #00E676;
+}
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 3rem;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 1.5rem;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #00E676;
+}
+
+.navTrigger {
+    display: none;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+
+/* Media qurey section */
+
+
+
+
+/* Animation */
+/* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
+
+
+.affix {
+    padding: 0;
+    background-color: #111;
+}
+
+footer{
+    background-color:black;
+    color: #ffffff;
+position: absolute;
+top:150px;
+ 
+height:100vh;
+}
+footer h1{
+    font-size: 35px;
+    margin-left: 100px;
+  margin-top: 00px;
+}
+footer p{
+    font-size: 20px;
+    width:630px;
+    margin-left: 100px;
+    padding-bottom: 100px;
+}
+footer a{
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+    text-decoration: none;
+}
+footer i{
+    font-size: 40px;
+    margin-right: 10px;
+}
+#email h4,footer h4{
+    font-size: 25px;
+    text-align: center;
+}
+#email{
+    width:550px;
+}
+#telephone a,#location a{
+    margin-left: 125px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
