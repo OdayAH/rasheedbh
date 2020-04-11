@@ -696,10 +696,192 @@ body {
     }
     
  
+@media only screen and (min-width:300px){
+    body,html{
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    .home{
+        height: 107vh;
+          }
+        
+            body,html{
+               box-sizing: border-box;
+               overflow-x: hidden;
+           }
+            #left{
+                grid-column: 1/9;
+            }
+            #right{
+                grid-row: 2;
+                grid-column: 1/9;
+            }
+            #left,#right{
+                height:250px;
+            }
+        
+            footer p, footer h1{
+                margin: 15px;
+                color:white;
+                
+            }
+            footer a{
+                color:white;
+                text-decoration: none;
+                font-size: 20px;
+            }
+            footer p{
+                font-size: 15px;
+                width: 90%;
+                text-align: center;
+            }
+            footer h1{
+                font-size: 20px;
+                margin-top: 30px;
+               
+            }
+            footer{
+                height: 600px;
+            }
+            #telephone{
+                grid-column: 1/8;
+                margin-left: -120px;
+            }
+            #email{
+                grid-column: 1/9;
+            }
+            #location{
+                grid-column: 1/9;
+                margin-left: -160px;
+            }
+            #left a, #right a{
+                top:100px;
+            }
+        #brands {
+        font-size: 13px;
+        }
+        #brands h1{
+            font-size: 30px;
+            text-align: center;
+            padding-top: 30px;
+        }
+        #brands img{
+            grid-column:span 3;
+            
+        
+        }
+        #noidea img{
+            width:300px;
+            height: 400px;
+         
+        }
+        #noidea p{
+            font-size: 20px;
+        }
+        #noidea{
+            height: auto;
+        }
+        #content{
+            font-size: 15px;
+         height: 90vh;
+        }
+        #content img{
+            height: 200px;
+            width: 300px;
+            margin-left: -140px;
+        
+        }
+        #leftside{
+            grid-row: 2;
+        
+            grid-column: 1/7;
+        margin-left: -70px;
+            font-size: 25px;
+          margin-top: -70px;
+        }
+        #leftside p{
+            font-size: 18px;
+        }
+        #leftside a{
+            padding:10px 15px;
+            border-radius:15px;
+        
+        }
+        
+        .hi{
+            font-size: 18.3px;
+            margin-left: -50px;
+            width: 100%;
+        }
+        .whatido{
+            font-size: 13px;
+            width: 100%;
+            margin-left: -50px;
+        }
+        #responsibility{
+            font-size: 18px;
+        }
+        .item1,.item2,.item3,.item4{
+            grid-column: 1/9;
+            margin-right: 70px;
+          
+        }
+        .item4,.item2{
+            margin-left:50px;
+        }
+        #services p{
+            font-size: 18px;
+        
+        }
+        
+        #learn{
+            margin-left: 20px;
+            font-size: 20px;
+            
+        }
+        #services{
+            height: auto;
+        }
+        .itemm2{
+            grid-row: 2;
+            grid-column: span 3;
+        }
+        .itemm2 h3{
+            font-size:28px;
+            margin-left:30px;
+            
+        }
+        
+        #noidea a{
+            left:-250px;
+            font-size:15px;
+        }
+        #noidea h3{
+            margin-left: 35px;
+        }
+        #noidea img{
+            height: 300px;
+            border-radius:5px;
+        
+           margin-left:35px;
+        }
+        #noidea p{
+         font-size: 20px;
+            margin-left: 35px;
+            margin-right: 20px;
+        }
+        #brands img{
+            width: 100px;
+            height: 100px;
+            margin-left: 80px;
+            margin-bottom: 25px;
+        }
+}
+
+@media only screen and (min-width:400px){
 
 
-@media only screen and (min-width:211px){
-   body,html{
+    body,html{
        box-sizing: border-box;
        overflow-x: hidden;
    }
@@ -739,13 +921,13 @@ body {
     }
     #telephone{
         grid-column: 1/8;
-        margin-left: -170px;
+        margin-left: -120px;
     }
     #email{
-        grid-column: 1/8;
+        grid-column: 1/9;
     }
     #location{
-        grid-column: 1/8;
+        grid-column: 1/9;
         margin-left: -160px;
     }
     #left a, #right a{
@@ -777,7 +959,7 @@ font-size: 13px;
 }
 #content{
     font-size: 15px;
- height: 70vh;
+ 
 }
 #content img{
     height: 200px;
