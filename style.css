@@ -698,7 +698,11 @@ body {
  
 
 
-@media only screen and (min-width:411px){
+@media only screen and (min-width:211px){
+   body,html{
+       box-sizing: border-box;
+       overflow-x: hidden;
+   }
     #left{
         grid-column: 1/9;
     }
@@ -712,27 +716,37 @@ body {
 
     footer p, footer h1{
         margin: 15px;
+        color:white;
         
     }
-
-    footer p{
+    footer a{
+        color:white;
+        text-decoration: none;
         font-size: 20px;
+    }
+    footer p{
+        font-size: 15px;
         width: 90%;
         text-align: center;
     }
     footer h1{
-        font-size: 25px;
-        margin-top: 130px;
-        text-align: center;
+        font-size: 20px;
+        margin-top: 30px;
+       
+    }
+    footer{
+        height: 600px;
     }
     #telephone{
         grid-column: 1/8;
+        margin-left: -170px;
     }
     #email{
         grid-column: 1/8;
     }
     #location{
         grid-column: 1/8;
+        margin-left: -160px;
     }
     #left a, #right a{
         top:100px;
@@ -740,14 +754,20 @@ body {
 #brands {
 font-size: 13px;
 }
+#brands h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
 #brands img{
     grid-column:span 3;
+    
 
 }
 #noidea img{
     width:300px;
     height: 400px;
-    margin-left:45px;
+ 
 }
 #noidea p{
     font-size: 20px;
@@ -757,21 +777,21 @@ font-size: 13px;
 }
 #content{
     font-size: 15px;
-
+ height: 70vh;
 }
 #content img{
     height: 200px;
     width: 300px;
-  margin-left: -230px;
-margin-top: 35px;
+    margin-left: -200px;
+
 }
 #leftside{
     grid-row: 2;
-    width: 100%;
-    grid-column: 1/9;
-    margin-left: -40px;
+
+    grid-column: 1/7;
+margin-left: -30px;
     font-size: 25px;
-    margin-top: -100px;
+  margin-top: -70px;
 }
 #leftside p{
     font-size: 18px;
@@ -797,7 +817,7 @@ margin-top: 35px;
 }
 .item1,.item2,.item3,.item4{
     grid-column: 1/9;
-    margin-right: 30px;
+    margin-right: 70px;
   
 }
 .item4,.item2{
@@ -805,6 +825,11 @@ margin-top: 35px;
 }
 #services p{
     font-size: 18px;
+
+}
+
+#learn{
+    margin-left: 30px;
 }
 #services{
     height: auto;
@@ -815,16 +840,23 @@ margin-top: 35px;
 }
 .itemm2 h3{
     font-size:28px;
-    margin-left:50px;
+    margin-left:30px;
     
 }
+
 #noidea a{
-    left:-230px;
+    left:-210px;
     font-size:15px;
 }
+#noidea img{
+    height: 300px;
+    border-radius:5px;
+
+   margin-left:55px;
+}
 #noidea p{
- font-size: 23px;
- margin-left:50px;
+ font-size: 20px;
+    margin-left: 55px;
 }
 #brands img{
     width: 100px;
@@ -832,6 +864,7 @@ margin-top: 35px;
     margin-left: 80px;
     margin-bottom: 25px;
 }
+
 }
 @media only screen and (min-width:1200px){
     .home {
