@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rasheedbh</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" type="image/png" href=""/>
 </head>
 <body>
     <nav class="nav">
@@ -34,12 +35,12 @@
              based in Gharife Al-SHouf, Lebanon</p> 
              <p class="whatido">I design and create beautiful, modern-looking and responsive websites <br>
                  for businesses or for personal use </p> 
-            <a href="" id="learn"> Learn More        <i class='fas fa-arrow-right'  ></i>  </a>
+            <a href="" id="learn" class=""> Learn More        <i class='fas fa-arrow-right'  ></i>  </a>
     </div>
     </section>
-    <div  id="content" class="grid"
+    <div  id="creative" class="grid"
         <!-- just to make scrolling effect possible -->
-        <div id="leftside">
+        <div class="leftside">
     <h4>Creative & Engaging </h4>
     <p>I build pixel-perfect <br> websites for all devices </p>
     <a href="portfolio.html">View My Work </a></div>
@@ -50,7 +51,7 @@
         <p id="responsibility">
             I can take responsibility for one part of your project, or deliver the whole solution.
         </p>
-        <div id="allservices">
+        <div id="allservices" class="grid">
             <div class="item1 ">
         
         <h3 class="title"> Web design & Development</h3>
@@ -61,11 +62,11 @@
        <h3 class="title">Responsive Design </h3>
         <p class="par"> I make sure that your website looks great across all devices by making it adjust to all screen sizes</p>
        </div> 
-       <div class="item3">
+       <div class="item1">
        <h3 class="title"> Website Management</h3>
         <p class="par"> I provide various website management options which include - updating content, backing-up important data, monitoring and security/software updates.</p>
       </div> 
-      <div class="item4">
+      <div class="item2">
     
         
       <h3 class=" title ">Content Management</h3>
@@ -73,7 +74,7 @@
     </div></div></div>
  
 <div id="noidea" class="grid">
-    <div>
+    <div class="itemm1">
        <img src="images/rasheedo.jpg" alt="">   
     </div>
   
@@ -87,34 +88,22 @@
     <div id="sm">
         <ul>
         <li>
-          <a href="#">
+          <a href="https://www.facebook.com/rasheed.bouhamdan">
             <i class="fab fa-facebook-f icon"></i>    </a>
         </li>
         <li>
-          <a href="#"><i class="fab fa-twitter icon"></i></a>
+          <a href="https://twitter.com/rasheedbh10"><i class="fab fa-twitter icon"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+          <a href="https://www.linkedin.com/in/rasheed-bh-a7a"><i class="fab fa-linkedin-in icon"></i></a></li>
         <li>
-          <a href="#"><i class="fab fa-instagram icon" style="font-weight: 600;"></i></a></li>
+          <a href="https://www.instagram.com/rasheedbh/"><i class="fab fa-instagram icon" style="font-weight: 600;"></i></a></li>
       </ul>
       </div>
   
 </div></div>
 
-<div id="brands">
-    <h1>Brands That I Worked With </h1>
-    <div class="grid" >
-       <img src="images/beats.png" alt="">
-       <img src="images/jeep.png" alt="">
-       <img src="images/burger king.png" alt="">
-       <img src="images/bobbygrill.png" alt="">
-       <img src="images/nbc.png" alt="">
-        <img src="images/oreo.png" alt="">
-        <img src="images/overwatch.png" alt="">
-        <img src="images/max.png" alt="">
-    </div>
-</div>
+
 <section class="lastsection grid">
 <div id="left">
 <div class="link-background">
@@ -129,7 +118,7 @@
 </section>
 
 <footer>
-    <div id="lastpar grid"></div>
+    
 <h1>Let's build something great together.</h1>
 <p>If you'd like to start a new project, need help with an existing project or have any other enquiry, please get in touch.</p> 
 <div class="links grid">
@@ -151,23 +140,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="main.js"></script>
 <!-- Function used to shrink nav bar removing paddings and adding black background -->
     <script>
-        $(window).scroll(function() {
-            if ($(document).scrollTop() > 50) {
-                $('.nav').addClass('affix');
-                console.log("OK");
-            } else {
-                $('.nav').removeClass('affix');
-            }
-        });
-        $('.navTrigger').click(function () {
-    $(this).toggleClass('active');
-    console.log("Clicked menu");
-    $("#mainListDiv").toggleClass("show_list");
-    $("#mainListDiv").fadeIn();
-
+$(window).scroll(function() {
+    if ($(document).scrollTop() > 50) {
+        $('.nav').addClass('affix');
+        console.log("OK");
+    } else {
+        $('.nav').removeClass('affix');
+    }
 });
+
+
     </script>
 </body>
 </html>
